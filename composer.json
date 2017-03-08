@@ -6,7 +6,7 @@
     "plugin",
     "restrict",
     "ip",
-    "admin"
+    "admin",
     "access"
   ],
   "homepage": "https://github.com/fafiebig/faf-ipadmin",
