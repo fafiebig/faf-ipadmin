@@ -10,7 +10,7 @@ Wordpress Plugin to restrict IPs access to Admin Site.
 
 # If you kill yourself
 
-* set **$restrict to false** on line **28** in **/wp-content/plugins/faf-ipadmin.php**
+* set **$restrict to false** on line **28** in **/wp-content/plugins/faf-ipadmin.php** to regain access to admin
 
 # Installation with composer
 
