@@ -1,6 +1,6 @@
 # faf-ipadmin
 
-Wordpress Plugin to restric IPs access to Admin Site.
+Wordpress Plugin to restrict IPs access to Admin Site.
 
 # Installation
 
