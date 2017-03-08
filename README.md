@@ -8,6 +8,10 @@ Wordpress Plugin to restrict IPs access to Admin Site.
 * Activate the plugin in WordPress
 * Got to plugins page and use the optimization.
 
+# If you kill yourself
+
+* set **$restrict to false** on line **28** in **/wp-content/plugins/faf-ipadmin.php**
+
 # Installation with composer
 
 * Add the repo to your composer.json
