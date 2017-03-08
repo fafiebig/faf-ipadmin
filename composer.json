@@ -1,0 +1,26 @@
+{
+  "name": "fafiebig/faf-ipadmin",
+  "description": "Wordpress Plugin to restrict IPs access to Admin.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "restrict",
+    "ip",
+    "admin"
+    "access"
+  ],
+  "homepage": "https://github.com/fafiebig/faf-ipadmin",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "authors": [
+    {
+      "name": "F.A. Fiebig",
+      "email": "fafworx@gmail.com",
+      "homepage": "http://fafworx.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.2.0"
+  }
+}
