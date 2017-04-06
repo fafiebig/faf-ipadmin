@@ -2,7 +2,7 @@
 /*
 Plugin Name: FAF IPAdmin
 Plugin URI: https://github.com/fafiebig/faf-ipadmin
-Description: WP Plugin to restrict IPs access to Admin Sites.
+Description: WP Plugin to restrict IPs to grand access to WP Admin Sites.
 Version: 1.0
 Author: F.A. Fiebig
 Author URI: http://fafworx.com
@@ -62,19 +62,19 @@ function addIPAdminPageForm()
 {
     ?>
     <div class="wrap exopress">
-        <h1>IP Settings</h1>
+        <h1>IP Admin</h1>
 
         <form method="post" action="options.php">
 
-<?php
-    settings_fields('faf-ipadmin');
-    do_settings_sections('faf-ipadmin');
-?>
+            <?php
+            settings_fields('faf-ipadmin');
+            do_settings_sections('faf-ipadmin');
+            ?>
 
-            <table width="100%">
+            <table width="50%">
                 <tr>
                     <td>
-                        <p>Hier können alle erlaubten IPs eingetragen werden.</p>
+                        <p>Hier werden alle erlaubten IPs eingetragen. Alle anderen werden automatisch auf "403 Forbidden" weitergeleitet.</p>
                         <?php submit_button('Einstellungen speichern', 'primary alignright', 'settings'); ?>
                     </td>
                 </tr>

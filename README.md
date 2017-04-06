@@ -1,12 +1,12 @@
 # faf-ipadmin
 
-Wordpress Plugin to restrict IPs access to Admin Site.
+Wordpress Plugin to restrict IPs to grand access to WP Admin Site.
 
 # Installation
 
 * Unzip and upload the plugin to the **/wp-content/plugins/** directory
 * Activate the plugin in WordPress
-* Got to plugins page and use the optimization.
+* Go to plugins page and set your settings.
 
 # If you kill yourself
 
