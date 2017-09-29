@@ -26,7 +26,8 @@ if (is_admin()) {
 
     // get ip whitelist
     $restrict   = get_option('restrict', false);
-    $whitelist  = array_merge(['127.0.0.1'], explode(PHP_EOL, get_option('whitelist')));
+    $ips        = preg_split("/\\r\\n|\\r|\\n/", get_option('whitelist'));
+    $whitelist  = array_merge(['127.0.0.1'], $ips);
 
     // bail out if ip is not whitelisted
     if ($restrict && !in_array($ip, $whitelist)) {
