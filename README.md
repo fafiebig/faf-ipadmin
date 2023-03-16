@@ -1,3 +1,6 @@
+# DEPRECATED - DO NOT USE IT ANY LONGER!
+
+
 # faf-ipadmin
 
 Wordpress Plugin to restrict IPs to grand access to WP Admin Site.
